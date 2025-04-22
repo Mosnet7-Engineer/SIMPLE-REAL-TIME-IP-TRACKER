@@ -11,6 +11,6 @@ The monitor_network function is the main function that performs the network moni
 
 The function also includes a 60-second delay between each scan cycle to avoid excessive network traffic.
 
-The monitor_network function is called with the range 0 to 100, which corresponds to the IP addresses 192.168.1.0 to 192.168.1.100.
+The monitor_network function is called with the range 0 to 100, which corresponds to the IP addresses 10.0.0.0 to 10.0.0.254 or 10.0.0./24.
 
 The code includes a try-except block to handle a manual stop of the monitoring process using the keyboard interrupt (Ctrl+C).
